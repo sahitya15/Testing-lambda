@@ -5,7 +5,7 @@ phases:
   install:
       runtime-versions:
        nodejs: 16
-      commands:
+       commands:
        - echo installing serverless framework
        - npm install -g serverless
   pre_build:
